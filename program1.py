@@ -1,7 +1,7 @@
 class Solution:
    
-    def getTotalIsles(self, grid: list[list[str]]) -> int:
-    #    write your code here
+    # def getTotalIsles(self, grid: list[list[str]]) -> int:
+    # #    write your code here
 
     def numIslands(grid):
         if not grid or not grid[0]:
