@@ -25,18 +25,3 @@ class Solution:
     
     return island_count
 
-# Example usage:
-map1 = [
-    ["L", "L", "L", "L", "W"],
-    ["L", "L", "W", "L", "W"],
-    ["L", "L", "W", "W", "W"],
-    ["W", "W", "W", "W", "W"],
-]
-map2 = [
-    ["L", "L", "W", "W", "W"],
-    ["L", "L", "W", "W", "W"],
-    ["W", "W", "L", "W", "W"],
-    ["W", "W", "W", "L", "L"],
-]
-print(numIslands(map1))  # Output: 1
-print(numIslands(map2))  # Output: 3
