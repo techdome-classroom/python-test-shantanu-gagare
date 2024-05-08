@@ -11,9 +11,9 @@ class Solution:
                 return
             grid[i][j] = 'W'  
             search(i + 1, j)
-            dfs(i - 1, j)
-            dfs(i, j + 1)
-            dfs(i, j - 1)
+            search(i - 1, j)
+            search(i, j + 1)
+            search(i, j - 1)
         
         island_count = 0
         for i in range(len(grid)):
