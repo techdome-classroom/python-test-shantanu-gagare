@@ -14,12 +14,12 @@ class Solution:
         search(i, j + 1)
         search(i, j - 1)
     
-    island_count = 0
-    for i in range(len(grid)):
-        for j in range(len(grid[i])):
-            if grid[i][j] == 'L':
-                island_count += 1
-                search(i, j)
+        island_count = 0
+        for i in range(len(grid)):
+            for j in range(len(grid[i])):
+                if grid[i][j] == 'L':
+                    island_count += 1
+                    search(i, j)
         
         return island_count
     
