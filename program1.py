@@ -23,5 +23,5 @@ class Solution:
         
         return island_count
     
-search()
+search(5, 4)
 
