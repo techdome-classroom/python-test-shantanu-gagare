@@ -12,7 +12,6 @@ class Solution:
             search_island(i - 1, j)
             search_island(i, j + 1)
             search_island(i, j - 1)
-
         island_count = 0
         for i in range(len(grid)):
             for j in range(len(grid[i])):
