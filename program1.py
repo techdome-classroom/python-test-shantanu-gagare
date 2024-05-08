@@ -9,7 +9,7 @@ class Solution:
             if i < 0 or i >= len(grid) or j < 0 or j >= len(grid[0]) or grid[i][j] == 'W':
                 return
             grid[i][j] = 'W'  # Mark the land as visited by turning it into water
-            # Explore the four possible directions
+
             dfs(i + 1, j)
             dfs(i - 1, j)
             dfs(i, j + 1)
