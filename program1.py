@@ -5,7 +5,7 @@ class Solution:
             return 0
 
         def dfs(i, j):
-            # Check boundaries and if the current cell is water
+            
             if i < 0 or i >= len(grid) or j < 0 or j >= len(grid[0]) or grid[i][j] == 'W':
                 return
             grid[i][j] = 'W'  # Mark the land as visited by turning it into water
