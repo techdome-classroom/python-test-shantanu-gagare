@@ -5,7 +5,6 @@ class Solution:
             return 0
 
         def search(i, j):
-            
             if i < 0 or i >= len(grid) or j < 0 or j >= len(grid[0]) or grid[i][j] == 'W':
                 return
             grid[i][j] = 'W'
