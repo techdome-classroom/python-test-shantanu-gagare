@@ -22,4 +22,6 @@ class Solution:
                     search(i, j)
         
         return island_count
+    
+
 
