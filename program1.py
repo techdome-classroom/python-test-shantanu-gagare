@@ -20,7 +20,7 @@ class Solution:
             for j in range(len(grid[i])):
                 if grid[i][j] == 'L':
                     island_count += 1
-                    dfs(i, j)
+                    search(i, j)
         
         return island_count
 
