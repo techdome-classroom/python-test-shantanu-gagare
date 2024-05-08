@@ -37,8 +37,8 @@ class Solution:
         ["W", "W", "L", "W", "W"],
         ["W", "W", "W", "L", "L"],
     ]
-    print(get(map1))  # Output: 1
-    print(numIslands(map2))  # Output: 3
+    print(getTotalIsles(map1))  # Output: 1
+    print(getTotalIsles(map2))  # Output: 3
 
     
 
