@@ -4,10 +4,6 @@ class Solution:
     # #    write your code here
         if not grid or not grid[0]:
             return 0
-
-    def numIslands(grid):
-        if not grid or not grid[0]:
-            return 0
         
         def dfs(i, j):
             if i < 0 or i >= len(grid) or j < 0 or j >= len(grid[0]) or grid[i][j] == 'W':
